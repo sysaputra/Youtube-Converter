@@ -42,7 +42,7 @@ div.video iframe {
 require("youtube.php");
 
 // Data value untuk get ke youtub API
-$apikey = "API Key Agan";
+$apikey = "AIzaSyCOGUMWneBcyWhOtE0wGYt0mwZSrLzZk2Q";
 $keyword = (!empty($_GET['keyword']) ? $_GET['keyword'] : "tutorial php");
 $page = (!empty($_GET['page']) ? $_GET['page'] : "");
 $video_id = (!empty($_GET['video']) ? $_GET['video'] : "");
