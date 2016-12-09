@@ -1,40 +1,34 @@
-<style>
+<!DOCTYPE html>
+<html lang="en"> 
+	<head> 
+	<meta charset="utf-8"> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-body {
-   background: #f5f5f5
-}
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
 
-div.videos {
-   background: #fff;
-   display: inline-block;
-   width: 20%;
-   padding: 10px;
-   margin: 15px
-}
-
-div.videos img {
-   width: 100%
-}
-
-div.video {
-   background: #fff;
-   width: 700px;
-   padding: 10px;
-   margin: 20 auto
-}
-
-div.video iframe {
-   width: 100%;
-   border: 0;
-   height: 400px
-}
-
-</style>
-
-<form action="" method="GET">
-   <input type="text" name="keyword" />
-   <button>Search</button>
-</form>
+<body>
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+	<div class="navbar-header">
+		<a class="navbar-brand" href="#">
+        <img alt="Brand" src="icon/48px/YouTube-social-circle_red_48px.png"></a>
+		<a class="navbar-brand" href="#">Youtube Converter</a>		
+	</div>
+	<p class="navbar-text">131110685 Syaifuddin Yudha Saputra | 131110688 Christian Ari Kurniawan | 131110731 Susi Susilowati</p>
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">	
+		<form class="navbar-form navbar-right" role="search">
+			<div class="form-group">
+			<input type="text" class="form-control" name="keyword" placeholder="Masukkan Keyword">
+			</div>
+			<button type="submit" class="btn btn-default">Cari</button>	
+		</form>
+    </div>
+  </div>
+</nav>
 
 <?php
 
@@ -112,5 +106,6 @@ else{
 
 // Output HTML
 echo $html;
-
 ?>
+</body>
+</head>
