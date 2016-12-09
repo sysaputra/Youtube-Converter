@@ -14,7 +14,7 @@
   <div class="container-fluid">
 	<div class="navbar-header">
 		<a class="navbar-brand" href="#">
-        <img alt="Brand" src="/icon/48px/YouTube-social-circle_red_48px.png"></a>
+        <img alt="Brand" src="/YouTube-social-circle_red_48px.png"></a>
 		<a class="navbar-brand" href="#">Youtube Converter</a>		
 	</div>
 	<p class="navbar-text">131110685 Syaifuddin Yudha Saputra | 131110688 Christian Ari Kurniawan | 131110731 Susi Susilowati</p>
