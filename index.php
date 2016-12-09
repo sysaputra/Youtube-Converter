@@ -4,8 +4,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<script src="js/bootstrap.min.js"></script>
+<link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+<script src="/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </head>
 
@@ -14,7 +14,7 @@
   <div class="container-fluid">
 	<div class="navbar-header">
 		<a class="navbar-brand" href="#">
-        <img alt="Brand" src="icon/48px/YouTube-social-circle_red_48px.png"></a>
+        <img alt="Brand" src="/icon/48px/YouTube-social-circle_red_48px.png"></a>
 		<a class="navbar-brand" href="#">Youtube Converter</a>		
 	</div>
 	<p class="navbar-text">131110685 Syaifuddin Yudha Saputra | 131110688 Christian Ari Kurniawan | 131110731 Susi Susilowati</p>
