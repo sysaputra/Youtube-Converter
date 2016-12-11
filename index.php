@@ -1,35 +1,32 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head> 
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link type="text/css" rel="stylesheet" href="/stylesheets/bootstrap.css">
-<script src="/js/bootstrap.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-</head>
-
-<body>
-<nav class="navbar navbar-inverse navbar-static-top">
-  <div class="container-fluid">
-	<div class="navbar-header">
-		<a class="navbar-brand" href="#">
-        <img alt="Brand" src="/YouTube-social-circle_red_48px.png"></a>
-		<a class="navbar-brand" href="#">Youtube Converter</a>		
-	</div>
-	<p class="navbar-text">131110685 Syaifuddin Yudha Saputra | 131110688 Christian Ari Kurniawan | 131110731 Susi Susilowati</p>
-	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">	
-		<form class="navbar-form navbar-right" role="search">
-			<div class="form-group">
-			<input type="text" class="form-control" name="keyword" placeholder="Masukkan Keyword">
-			</div>
-			<button type="submit" class="btn btn-default">Cari</button>	
-		</form>
-    </div>
-  </div>
-</nav>
 
 <?php
+$html .= <head>;
+$html .= <link type="text/css" rel="stylesheet" href="/stylesheets/bootstrap.css">;
+$html .= <script src="/js/bootstrap.min.js"></script>;
+$html .= <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>;
+$html .= </head>;
+
+$html .= <body>;
+$html .= <nav class="navbar navbar-inverse navbar-static-top">;
+$html .= <div class="container-fluid">;
+$html .= <div class="navbar-header">;
+$html .= <a class="navbar-brand" href="#">;
+$html .= <img alt="Brand" src="/YouTube-social-circle_red_48px.png"></a>;
+$html .= <a class="navbar-brand" href="#">Youtube Converter</a>;
+$html .= </div>;
+$html .= <p class="navbar-text">131110685 Syaifuddin Yudha Saputra | 131110688 Christian Ari Kurniawan | 131110731 Susi Susilowati</p>;
+$html .= <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">;
+$html .= <form class="navbar-form navbar-right" role="search">;
+$html .= <div class="form-group">;
+$html .= <input type="text" class="form-control" name="keyword" placeholder="Masukkan Keyword">;
+$html .= </div>;
+$html .= <button type="submit" class="btn btn-default">Cari</button>;
+$html .= </form>;
+$html .= </div>;
+$html .= </div>;
+$html .= </nav>;
+
+
 
 // Include youtube.php
 require("youtube.php");
@@ -102,9 +99,8 @@ else{
    $html .= '</div>';
    
 }
+$html .= </body>;
 
 // Output HTML
 echo $html;
 ?>
-</body>
-</html>
