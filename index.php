@@ -10,7 +10,7 @@
 <div class="container-fluid">
 <div class="navbar-header">
 <a class="navbar-brand" href="#">
-<img alt="YT" src="https://s28.postimg.org/oy4dbguzt/You_Tube_social_circle_red_48px.png" height="48" width="48"></a>
+<img alt="YT" src="https://s28.postimg.org/oy4dbguzt/You_Tube_social_circle_red_48px.png" height="40" width="40"></a>
 <a class="navbar-brand" href="index.php">Youtube Converter to MP3</a>
 </div>
 <p class="navbar-text">131110685 Syaifuddin Yudha Saputra | 131110688 Christian Ari Kurniawan | 131110731 Susi Susilowati</p>
