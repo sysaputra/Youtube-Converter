@@ -10,7 +10,7 @@
 <div class="container-fluid">
 <div class="navbar-header">
 <a class="navbar-brand" href="#">
-<img alt="Brand" src="/YouTube-social-circle_red_48px.png"></a>
+<img alt="Brand" src="https://s28.postimg.org/oy4dbguzt/You_Tube_social_circle_red_48px.png"></a>
 <a class="navbar-brand" href="index.php">Youtube Converter to MP3</a>
 </div>
 <p class="navbar-text">131110685 Syaifuddin Yudha Saputra | 131110688 Christian Ari Kurniawan | 131110731 Susi Susilowati</p>
@@ -75,7 +75,7 @@ if(empty($video_id)){
 	 $html .= '<div class="col-sm-2">';  
 	 $html .= '<div class="thumbnail">';
 	 $html .= '   <a href="?keyword='.urlencode($keyword).'&page='.$videos->nextPageToken.'">';
-	 $html .= '<img src="/next.png" height="100" width="200">';
+	 $html .= '<img src="https://s28.postimg.org/pz4m0lbzd/next.png" height="100" width="200">';
      $html .= '<div align="center"><a href="?keyword='.urlencode($keyword).'&page='.$videos->nextPageToken.'">Lanjut</a></div>';
 	 $html .= '</div>';
    }
