@@ -47,7 +47,7 @@ if(empty($video_id)){
    // Mencari videos berdasarkan keyword judul & output ARRAY
    $videos = $youtube->cari($keyword, $page);
 
-   // Mengextract videos untuk mendaptkan judul, deskripsi dll..
+   // Mengextract videos untuk mendapatkan judul, deskripsi dll..
    foreach($videos->items as $video) {
        $gambar = $video->snippet->thumbnails->default->url;
        $judul = $video->snippet->title;
