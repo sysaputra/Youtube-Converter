@@ -1,0 +1,5 @@
+- Buat Folder : YUDHA=~/src/latihan4444/latihan44
+- Cloning Github ke folder : git clone https://github.com/sysaputra/Youtube-Converter.git $YUDHA
+- Masuk ke folder : cd $YUDHA
+- Masuk ke branch gcloud : git checkout gcloud
+- Deploy ke Web preview : dev_appserver/py --php_executable_path=/usr/bin/php-cgi $PWD
